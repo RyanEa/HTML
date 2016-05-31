@@ -1,0 +1,33 @@
+* {font-family: sans-serif, Arial ; }
+table 
+{
+	background-color: #ff9500;
+}
+h1+p
+{
+	background: gray;
+	background: -webkit-linear-gradient(360deg, red 0%, orange 15%, yellow 30%, green 45%, blue 65%, indigo 80%, violet 100%);
+
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+	width: fit-content;
+}
+
+td
+{
+	text-align: center;
+}
+legend
+{
+	text-align: right;
+	border: .01em solid #ff9500;
+}
+
+fieldset
+{
+	width: fit-content;
+	padding: 1em;
+	border: .35em solid; 
+	border-color: orange;
+}
