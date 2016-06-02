@@ -1,0 +1,85 @@
+*{
+    font-family: monospace, "comic sans ms", sans-serif;
+/*    background-color: blanchedalmond;*/
+
+}
+#form1{
+    float:left;
+}
+#form2{
+    float:left;
+}
+#form3{
+    float:left;
+}
+html{
+    background: gray;
+	background: -webkit-linear-gradient(238deg,yellow 25%, orange 25%, orange 50%, darkorange 50%, darkorange 75%, red 75%);
+}
+#main {
+    background-image: url("http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/3dDoge.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+legend
+{
+	text-align: right;
+    background-color: fuchsia;
+    border: .3em;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: fuchsia;
+}
+
+fieldset
+{
+	width: fit-content;
+	padding: 1.15em;
+	margin: 1em;
+	border: .35em solid; 
+	border-color: fuchsia;
+    background-color:palegreen;
+}
+textarea
+{
+	margin: .5em;
+    border: black .25em;
+    border-style: solid;
+    background:white;
+}
+.input
+{
+    width:auto;
+	margin: 1em;
+}
+.date{
+    padding: .05em;
+    background:inherit;
+    
+}
+.input{
+     border:.17em solid black;    
+    background:white;
+}
+.input-inline{
+    width: 5em;
+    border:.17em solid black;
+    background:white;
+}
+.submit{
+    float:right;
+    clear: both;
+    background:white;
+}
+label{
+    background:inherit;
+}
+input.submit:hover {
+    color:orangered;
+    background: blue;
+}
+input.submit:focus {
+    color:palegreen;
+    border: dashed;
+}

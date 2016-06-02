@@ -1,0 +1,30 @@
+*
+{
+	font-family: sans-serif, Arial ;
+}
+h1, ul
+{
+	/*background: #ff9500;
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+	width: fit-content;*.
+/*	text-align: center;*/
+}
+
+hr 
+{
+	text-align: left;
+	margin-left: 0;
+	width: 250px;
+}
+a:visited{
+	color: orange;
+	text-decoration: line-through;
+}
+a:link{
+	color: red;
+}
+a:hover{
+	color:pink;
+}

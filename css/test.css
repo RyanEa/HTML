@@ -1,0 +1,48 @@
+* {font-family: sans-serif, Arial ; }
+h1+p
+{
+	background: gray;
+	background: -webkit-linear-gradient(360deg, red 0%, orange 15%, yellow 30%, green 45%, blue 65%, indigo 80%, violet 100%);
+
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+	width: fit-content;
+}
+table 
+{
+    border-collapse: collapse;
+    width: 20em;
+}
+th{
+    background-color: palegreen;
+    border-color: black;
+    border: .1em;s
+}
+th{
+    color:blue;
+    border: solid black .125em;
+
+}
+th[scope]{ /*pg 292*/
+    color:white;
+    border-spacing: 0;
+}
+td {
+    text-align: center;
+    border: .15em clear solid;
+    padding: .5em;
+}
+legend
+{
+	text-align: right;
+	border: .01em solid #ff9500;
+}
+
+fieldset
+{
+	width: fit-content;
+	padding: 1em;
+	border: .35em solid; 
+	border-color: orange;
+}
