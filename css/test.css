@@ -46,3 +46,7 @@ fieldset
 	border: .35em solid; 
 	border-color: orange;
 }
+#RR{
+/*    visibility: hidden;*/
+    display: none;
+}
