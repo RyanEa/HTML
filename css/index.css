@@ -2,21 +2,38 @@
 {
 	font-family: sans-serif, Arial ;
 }
-h1, ul
-{
-	/*background: #ff9500;
-	-webkit-background-clip: text;
-
-	-webkit-text-fill-color: transparent;
-	width: fit-content;*.
-/*	text-align: center;*/
+h1{
+    text-align: center;
 }
-
+#left{
+    float:left;
+    width: 10%;
+    height:100%;
+    background-color: palegreen;
+}
+#middle{
+    float: left;
+    width: 80%;
+    height:100%;
+    text-align: center;
+    background-color: gold;
+}
+p.p{
+    text-align: left;
+}
+#right{
+    float:right;
+    width:10%;
+    background-color: skyblue;
+    height:100%;
+}
+#bottom{
+    text-align: center;
+    background-color: orange;
+}
 hr 
 {
-	text-align: left;
-	margin-left: 0;
-	width: 250px;
+    color:black;
 }
 a:visited{
 	color: orange;
