@@ -1,0 +1,38 @@
+#extras {
+    background-color: fuchsia;
+}
+#navbar li{
+    display: inline ;
+    float: right;
+    min-width: 10%;
+}
+#thebox {
+    width: 5em;
+    height: inherit;
+    text-align: center;
+    background-color: orangered;
+    float: left;
+
+}
+#itemlist{
+    height:inherit;
+    width: 33%;
+    column-count: 3;
+    background-color: lightskyblue;
+}
+#itemlist li {
+     line-height: inherit;
+    float: left;
+    clear:left;
+}
+#increase {
+    margin-top: 0em;
+}
+#contents{
+    height: 6em;
+}
+#append {
+    clear:left;
+    margin-top: 1.5em;
+    float: right;
+}

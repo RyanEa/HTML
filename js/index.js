@@ -2,12 +2,8 @@ var ones;
 var twos;
 var totals;
 
-ones = 13;
-twos = 20;
-totals = ones * twos;
-
 var el = document.getElementById('bottom');
-el.textContent = 'TITLE:' + totals + ": Homepage get!";
+el.textContent = "Bottom";
 
 var today = new Date();
 var currentHour = today.getHours();

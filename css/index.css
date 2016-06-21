@@ -2,42 +2,55 @@
 {
 	font-family: sans-serif, Arial ;
 }
+html{
+    background-color: #ffa31a;
+    padding: 0em;
+    margin: 0em;
+}
 h1{
     text-align: center;
+    border-bottom: inset palegreen .15em;
+}
+.links{
+    border-style: inset;
+    border-color: aliceblue;
 }
 #left{
     float:left;
     width: 10%;
-    height:100%;
-    background-color: palegreen;
+    height:50%;
+    background-color: inherit;
 }
 #middle{
     float: left;
-    width: 80%;
+    width: 77.7%;
     height:100%;
     text-align: center;
-    background-color: gold;
+    background-color: inherit;
+    margin: 1em;
 }
 p.p{
     text-align: left;
 }
 #right{
-    float:right;
+    float:left;
     width:10%;
-    background-color: skyblue;
-    height:100%;
+    background-color: inherit;
+    height:50%;
 }
 #bottom{
+    background-color: inherit;
     text-align: center;
     background-color: orange;
+    border-style:outset;    
+    clear:both;
 }
 hr 
 {
     color:black;
 }
 a:visited{
-	color: orange;
-	text-decoration: line-through;
+	color: skyblue;
 }
 a:link{
 	color: red;
@@ -45,3 +58,7 @@ a:link{
 a:hover{
 	color:pink;
 }
+/*
+#title {
+    position: fixed;
+}*/
